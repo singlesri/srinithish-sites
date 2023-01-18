@@ -21,3 +21,29 @@ document.querySelector('#user-icon').onclick = () =>{
     search.classList.remove('active');
     cart.classList.remove('active');
 }
+
+
+// Swiper
+var swiper = new Swiper(".new-arrival", {
+    spaceBetween: 20,
+    loop:true,
+    autoplay: {
+        delay: 5500,
+        disableOnInteraction: false,
+    },
+    centeredSlides: true,
+    breakpoints: {
+        0: {
+            slidesPreView: 0,
+        },
+        568: {
+            slidesPreView: 2,
+        },
+        768: {
+            slidesPreView: 2,
+        },
+        1020: {
+            slidesPreView: 3,
+        },
+    },
+  });
