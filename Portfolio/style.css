@@ -169,3 +169,16 @@ section{
     color: var(--main-color);
     box-shadow: 0 0 20px var(--main-color);
 }
+
+.btn2{
+    background: transparent;
+    color: var(--main-colork);
+    border: 2px solid var(--main-color);
+    margin-left: 15px;
+    transition: all .50s ease;
+}
+ 
+.btn2:hover{
+    background: var(--main-color);
+    color: var(--bg-color);
+}
